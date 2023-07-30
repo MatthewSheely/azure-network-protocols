@@ -11,7 +11,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
+- Various Network Protocols (SSH, RDP, DNS, DHCP, ICMP)
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
@@ -19,7 +19,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
 
-<h2>High-Level Steps</h2>
+<h2>Steps & Observations</h2>
 
 - Create a Resource Group
 - Create a Virtual Machine
@@ -105,42 +105,45 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 In this section, we will observe the traffic between VMs (DC-1 & Client-1). To do this we will need to use the private IP Address of the Ubuntu VM(DC-1) and ping from the Windows 10 VM (Client-1). 
 
-<h3>Oberve ICMP</h3>
+<h3>Observe ICMP</h3>
 
-Below is ICMP traffic in Wireshark between VMs. 
+<p align="center">
+Below is ICMP (Internet Control Message Protocol) traffic in Wireshark between VMs. 
 <p align="center">
 <img src="https://i.imgur.com/6oHEfxw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p></p>
 
+<p align="center">
 Below is ICMP (Internet Control Message Protocol) traffic in Wireshark between www.google.com and the VM.
-  
 <p align="center">
 <img src="https://i.imgur.com/sCvsTP6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p></p>
 
 <h3>Observe DNS</h3>
 
+<p align="center">
 Below is DNS (Domain Name System) traffic in Wireshark
-
 <p align="center">
 <img src="https://i.imgur.com/xf66EMJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p></p>
 
 <h3>Observe RDP</h3>
 
+<p align="center">
 Below is RDP (Remote Desktop Protocol) traffic in Wireshark
-
 <p align="center">
 <img src="https://i.imgur.com/zl0Bxpv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   
 <h3>Observe SSH</h3>
 
+<p align="center">
 Below is SSH (Secure Shell) traffic in Wireshark
 <p align="center">
 <img src="https://i.imgur.com/3Is9VYi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h3>Observe DHCP</h3>
 
+<p align="center">
 Below is DHCP (Dynamic Host Control Protocol) traffic in Wireshark
 <p align="center">
 <img src="https://i.imgur.com/m8dq18Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
