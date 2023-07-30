@@ -85,11 +85,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/hKA9muI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
   
-3B. Use the login credential created for the VM1(Client-1)
+3B. Use the login credential created for VM1 (Client-1)
 <p align="center">
 <img src="https://i.imgur.com/wA8maG7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-3C. Once logged into the VM, Use Microsoft Edge to Install Wireshark 
+3C. Once logged into VM1 (Client-1), Use Microsoft Edge to Install Wireshark 
 <p></p>
 <p align="center">
 <img src="https://i.imgur.com/8a6v3Go.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -103,7 +103,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   
 <h2>Actions and Observations</h2>
 
-In this section, we will observe the traffic between VMs (DC-1 & Client-1). To do this we will need to use the private IP Address of the Ubuntu VM(DC-1) and ping from the Windows 10 VM (Client-1). 
+In this section, we will observe traffic between VMs (DC-1 & Client-1). To do this we will need to use the private IP Address of the Ubuntu VM(DC-1) and ping the Ubuntu VM from the Windows 10 VM (Client-1). 
 
 <h3>Observe ICMP</h3>
 
